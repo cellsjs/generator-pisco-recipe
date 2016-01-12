@@ -1,24 +1,26 @@
 {
-  "name": "piscosour",
+  "name": "pisco-starter-recipe",
   "version": "0.0.1",
-  "description": "Piscosour recipe",
-  "main": "bin/pisco.js",
-  "scripts": {
-    "deps": "npm install"
-  },
+  "description": "Scaffolding for piscosour recipes",
   "repository": {
-    "type": "git",
-    "url": "https://github.com/cellsjs/piscosour.git"
+    "url": "https://github.com/sbonacho/pisco-starter-recipe.git"
   },
-  "keywords": [
+  "files": [
+    "recipe"
   ],
-  "author": "author",
-  "license": "ISC",
-  "preferGlobal": true,
-  "bin": {
-    "pisco": "bin/pisco.js"
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "test": "jshint ./app/index.js && mocha --reporter spec"
   },
   "dependencies": {
-    "piscosour": "^0.0.1"
+    "chalk": "^1.0.0",
+    "inquirer": "^0.10.0",
+    "validate-element-name": "^1.0.0",
+    "yeoman-generator": "^0.18.8"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
   }
 }
