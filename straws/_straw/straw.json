@@ -1,0 +1,11 @@
+{
+  "params" : {},
+  "shots" : {
+    "install" : {
+      "recipe" : {
+        "params" : {}
+      }
+    },
+    "create" : {}
+  }
+}

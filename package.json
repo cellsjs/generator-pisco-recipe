@@ -1,0 +1,24 @@
+{
+  "name": "piscosour",
+  "version": "0.0.1",
+  "description": "Piscosour recipe",
+  "main": "bin/pisco.js",
+  "scripts": {
+    "deps": "npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cellsjs/piscosour.git"
+  },
+  "keywords": [
+  ],
+  "author": "author",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "pisco": "bin/pisco.js"
+  },
+  "dependencies": {
+    "piscosour": "^0.0.1"
+  }
+}
