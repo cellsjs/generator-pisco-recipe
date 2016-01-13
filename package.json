@@ -1,12 +1,12 @@
 {
-  "name": "generator-pisco-starter-recipe",
+  "name": "generator-pisco-recipe",
   "version": "0.0.1",
   "description": "Scaffolding for piscosour recipes",
   "repository": {
-    "url": "https://github.com/sbonacho/generator-pisco-starter-recipe.git"
+    "url": "https://github.com/sbonacho/generator-pisco-recipe.git"
   },
   "files": [
-    "recipe"
+    "app"
   ],
   "keywords": [
     "yeoman-generator"
