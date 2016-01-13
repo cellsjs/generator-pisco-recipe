@@ -77,17 +77,17 @@ var utils = {
 module.exports = yeoman.generators.Base.extend({
   constructor: function () {
     yeoman.generators.Base.apply(this, arguments);
-    this.option('appName', { type: String, required: false });
-    this.option('bowerComponents', { type: String, required: false });
-    this.option('includeCellsCordova', { type: Boolean, required: false });
-    this.option('remoteContent',{type:String, required: false});
+    this.option('recipeName', { type: String, required: false });
+    this.option('description', { type: String, required: false });
     this.sourceRoot(path.join(path.dirname(this.resolved), 'templates/'));
   },
+
   initializing: function () {
     // get package.json content
     this.pkg = require('../package.json');
     this.destinationFolder = this.destinationRoot();
   },
+
   prompting: function () {
     var done = this.async();
 
@@ -236,6 +236,7 @@ module.exports = yeoman.generators.Base.extend({
       skipMessage: this.options['skip-install-message'],
     });
   },
+
   end: function () {
     this.log(chalk.green('Cells starter kit generator finished'));
   }
