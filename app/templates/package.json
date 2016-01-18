@@ -12,7 +12,7 @@
     "pisco": "bin/pisco.js"
   },
   "dependencies": {
-    "piscosour": "^0.0.1"
+    "piscosour": "0.0.3-beta"
   },
   "engines": {
     "node": ">=0.10.0"
