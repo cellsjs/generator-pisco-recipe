@@ -111,7 +111,7 @@ module.exports = yeoman.generators.Base.extend({
         name: 'description',
         message: 'Write a brief description for your recipe',
         when: function () {
-          return !this.options.description;
+          return !this.options.cmd;
         }.bind(this)
       }
     ];
@@ -130,11 +130,12 @@ module.exports = yeoman.generators.Base.extend({
     createRecipe: function () {
       this.copy('gitignore', '.gitignore');
       this.copy('package.json', 'package.json');
+      this.copy('piscosour.json', 'piscosour.json');
       this.copy('README.md', 'README.md');
       this.directory('bin','bin');
       this.directory('locale','locale');
-      this.mkdir('shots');
-      this.mkdir('straws');
+      this.directory('shots','shots');
+      this.directory('straws','straws');
     }
 
   },
