@@ -1,34 +1,34 @@
 'use strict';
 
 var piscosour = require('piscosour'),
-    Shot = piscosour.Shot,
-    logger = piscosour.logger;
+    Shot = piscosour.Shot;
 
 var shot = new Shot({
+    name: "nameForResults",
     description : "Brief description of shot",
 
     check : function(resolve){
-        logger.info("#magenta","check","Check all pre-requisites for the execution");
+        shot.logger.info("#magenta","check","Check all pre-requisites for the execution");
         resolve();
     },
 
     config : function(resolve){
-        logger.info("#magenta","config","Preparing params for main execution");
+        shot.logger.info("#magenta","config","Preparing params for main execution");
         resolve();
     },
 
     run : function(resolve){
-        logger.info("#magenta","run","Run main execution");
+        shot.logger.info("#magenta","run","Run main execution");
         resolve();
     },
 
     prove : function(resolve){
-        logger.info("#magenta","prove","Prove that the run execution was ok");
+        shot.logger.info("#magenta","prove","Prove that the run execution was ok");
         resolve();
     },
 
     notify : function(resolve){
-        logger.info("#magenta","notify","Recollect all execution information and notify");
+        shot.logger.info("#magenta","notify","Recollect all execution information and notify");
         resolve();
     }
 
