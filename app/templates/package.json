@@ -9,10 +9,10 @@
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
-    "pisco": "bin/pisco.js"
+    "<%=cmd%>": "bin/pisco.js"
   },
   "dependencies": {
-    "piscosour": "0.0.3-beta"
+    "piscosour": "~0.0.4-beta"
   },
   "engines": {
     "node": ">=0.10.0"
