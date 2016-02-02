@@ -5,6 +5,7 @@
   "options" : "Options",
   "straws" : "Straws availables:",
   "repoTypes" : "Repository Types availables:",
+  "utils" : "Piscosour utils:",
   "shots" : "shots:",
   "initShot": "from shot : <%=cmd%> -i <shotname>",
   "endShot": "to shot : <%=cmd%> -e <shotname>",
