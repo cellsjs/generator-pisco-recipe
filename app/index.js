@@ -133,9 +133,6 @@ module.exports = yeoman.generators.Base.extend({
       this.copy('piscosour.json', 'piscosour.json');
       this.copy('README.md', 'README.md');
       this.directory('bin','bin');
-      this.directory('locale','locale');
-      this.directory('shots','shots');
-      this.directory('straws','straws');
     }
 
   },

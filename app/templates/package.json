@@ -1,20 +1,23 @@
 {
   "name": "<%= recipeName %>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<%= description %>",
   "main": "bin/pisco.js",
   "scripts": {
     "deps": "npm install"
   },
+  "keywords": [
+    "piscosour-recipe"
+  ],
   "license": "ISC",
   "preferGlobal": true,
   "bin": {
     "<%=cmd%>": "bin/pisco.js"
   },
   "dependencies": {
-    "piscosour": "~0.0.4-beta"
+    "piscosour": "~0.0.7"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.0.0"
   }
 }
