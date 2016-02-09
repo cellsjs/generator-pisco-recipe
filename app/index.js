@@ -101,7 +101,7 @@ module.exports = yeoman.generators.Base.extend({
       },{
         type: 'input',
         name: 'cmd',
-        message: 'Write the command line executable for your pisco recipe',
+        message: 'Write the command line executable for this pisco recipe',
         validate: utils.validatePrompt("command line"),
         when: function () {
           return !this.options.cmd;
