@@ -1,5 +1,4 @@
 {
   "cmd" : "<%=cmd%>",
-  "repoTypes" : [],
-  "straws" : {}
+  "repoTypes" : []
 }
