@@ -15,7 +15,7 @@
     "<%=cmd%>": "bin/pisco.js"
   },
   "dependencies": {
-    "piscosour": "~0.0.7"
+    "piscosour": "*"
   },
   "engines": {
     "node": ">=4.0.0"
