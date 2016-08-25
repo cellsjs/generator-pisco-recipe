@@ -1,10 +1,11 @@
 {
   "name": "<%= recipeName %>",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "<%= description %>",
   "main": "bin/pisco.js",
   "scripts": {
-    "deps": "npm install"
+    "deps": "npm install",
+    "postinstall": "node bin/pisco.js -w"
   },
   "keywords": [
     "piscosour-recipe"
@@ -15,7 +16,7 @@
     "<%=cmd%>": "bin/pisco.js"
   },
   "dependencies": {
-    "piscosour": "*"
+    "piscosour": "^1.0.0-alpha.8"
   },
   "engines": {
     "node": ">=4.0.0"
