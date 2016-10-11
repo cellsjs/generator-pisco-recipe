@@ -1,6 +1,6 @@
 {
   "name": "generator-pisco-recipe",
-  "version": "0.0.2",
+  "version": "0.1.1",
   "description": "Scaffolding for piscosour recipes",
   "repository": {
     "url": "https://github.com/sbonacho/generator-pisco-recipe.git"
