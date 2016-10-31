@@ -129,6 +129,7 @@ module.exports = yeoman.generators.Base.extend({
 
     createRecipe: function () {
       this.copy('gitignore', '.gitignore');
+      this.copy('Jenkinsfile', 'Jenkinsfile');
       this.copy('package.json', 'package.json');
       this.copy('piscosour.json', 'piscosour.json');
       this.copy('README.md', 'README.md');
